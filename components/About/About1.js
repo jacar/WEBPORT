@@ -15,7 +15,8 @@ const About1 = ({ clientHeight }) => {
         .fromTo(
           quoteRef.current.querySelector(".about-1"),
           { opacity: 0.2 },
-          { opacity: 1 }
+          { opacity: 1 s
+        
         )
         .to(quoteRef.current.querySelector(".about-1"), {
           opacity: 0.2,
@@ -56,7 +57,7 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-            I&apos;m a passionate Engineer who&apos;s focused on building
+            I&apos;m awordpress who&apos;s focused on building
             scalable and performant apps.{" "}
           </span>
           <span className="about-2 leading-tight">
